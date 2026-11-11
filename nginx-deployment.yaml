@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
-  replicas: 2  # Запускаем 2 копии (пода) для отказоустойчивости
+  replicas: 3  # Запускаем 2 копии (пода) для отказоустойчивости
   selector:
     matchLabels:
       app: nginx
